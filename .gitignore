@@ -1,0 +1,22 @@
+# RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Data that is downloaded, not authored
+data/raw/*
+data/external/*
+!data/raw/.gitkeep
+!data/external/.gitkeep
+
+# Secrets
+.env
+
+# Python (for later)
+__pycache__/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
