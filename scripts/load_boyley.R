@@ -95,3 +95,4 @@ cat("\nGames:", nrow(games), "| Appearances:", nrow(appearances),
 cat("Date range:", as.character(min(games$date, na.rm = TRUE)), "to",
     as.character(max(games$date, na.rm = TRUE)), "\n")
 print(head(player_summary, 10))
+
